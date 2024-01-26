@@ -1,0 +1,35 @@
+#bg-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.box-login h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.btn2 {
+    padding: 8px 15px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
