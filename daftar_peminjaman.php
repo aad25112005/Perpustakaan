@@ -48,7 +48,7 @@ if ($result_count_peminjaman->num_rows > 0) {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="main.php">Dashboard</a>
+                        <a class="nav-link" aria-current="page" href="main.php">Dashboard</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="daftar_siswa.php">Siswa</a>
@@ -57,7 +57,7 @@ if ($result_count_peminjaman->num_rows > 0) {
                         <a class="nav-link" href="daftar_buku.php">Buku</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="daftar_peminjaman.php">Peminjaman</a>
+                        <a class="nav-link active" href="daftar_peminjaman.php">Peminjaman</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
